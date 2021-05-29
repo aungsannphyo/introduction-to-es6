@@ -104,8 +104,41 @@ let and const keyword တွေက ES6 မှ စတင်ပါ၀င် လာ
 >
 > let name = "Superman"
 >
-> console.log(superHeroName);	
+> console.log(name);	
 >
-> Error =>  SyntaxError: Identifier 'superHeroName' has already been declared
+> Error =>  SyntaxError: Identifier 'name' has already been declared
 
 example 6 မှာအပေါ်က var လို variable name တူတူ let keyword ကိုသုံးပီး declare လုပ်တဲ့ချိန်မှာဆို error တက်တယ်။ အဲ့တော့ ကျွန်တော်တို့က var ကိုမသုံးသင့်တော့ဘူး ဘာလို့ဆိုအပေါ်မှာပြောခဲ့သလို တိုင်ပတ်နိုင်လို့  var အစား  let keyword ကိုပဲ သုံးသင့်တယ်။ ဘာလိုအခြေအနေတွေမှာတိုင်ပတ်နိုင်သလိုဆိုတာကို ကျွန်တော် example code နဲ့အောက်မှာရှင်းပြပါမယ်။ 
+
+`Example - 7`
+
+> let numberList = [1, 2, 3, 4, 5];
+>
+> for (var i = 0; i < numberList.length; i++) {
+>
+>   console.log("inside looping", i);
+>
+> ​	***Answer => 0 , 1, 2, 3, 4***
+>
+> }
+>
+> console.log("outside looping", i)
+>
+> **Answer =>  5**
+
+example 7 မှာ var ကို သုံးပီး loop ပတ်လိုက်တဲ့ ချိန်မှာ inside looping  ထဲမှာ 0 to 4  ထိပဲ ရတယ် အမှန်က 0 to 5  ထိရရမှာ ဘာလို့မရလဲဆိုတော့ အောက်က outside looping  မှာ  overwrite ဖစ်ပီး သူပဲ နောက်ဆုံးရမဲ့  5  က အဲ့ မှာသွားရနေတယ်။ တကယ်လိုကိုယ်က i ကိုနောက်ထပ် variable အနေနဲ့ declare လုပ်ပီးထပ်သုံးမိရင်တိုင်ပတ်ပီ။ အဲ့နေရာမှာ ဖစ်သင့်တာက let keyword  ပဲ ဖစ်သင့်တယ်။
+
+`Example - 8`
+
+> let numberList = [1, 2, 3, 4, 5];
+>
+> for (let i = 0; i < numberList.length; i++) {
+>
+>   console.log("inside looping", i);
+>
+> }
+>
+> console.log("outside looping", i)
+>
+> **Error => ReferenceError: i is not defined**
+
