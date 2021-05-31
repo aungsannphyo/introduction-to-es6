@@ -8,18 +8,8 @@
 
 - ES6
 
-- What is Reactjs
-
-- state and props
-
-- Component (Class and Functional)
-
-- Component Life Cycle
-
-- React Router
-
-- Hook
-
-- State Management (Provider and Context)
+  
 
   
+
+
