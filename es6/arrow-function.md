@@ -11,26 +11,26 @@ function getName(*name*) {
 
 }
 
-getName("Batman");	 **Answer => Batman**
+getName("Batman");	 Answer => Batman
 ```
 
 **Example - 2**
 
-```
+```javascript
 let getName = function (*name*) {
 
   console.log(*name*)
 
 }
 
-getName("Batman");	**Answer => Batman**
+getName("Batman");	Answer => Batman
 ```
 
 အပေါ်က example ၂ ခုမှာ ပထမတစ်ခုက Function name ပါတာ နဲ့ ဖစ်ပီး  နောက်တစ်ခုက Nameless or Anonymous Function ဖစ်တယ်။  Javascript မှာ  Anonymous Function  ရေးနည်းကိုသာတော်တော်များများသုံးကြပါတယ်။ React ရောက်ရင်လဲ နေရာနီးပါးတိုင်းမှာ Anonymous Function ကိုသာမြင်ရမှာမို့အခုကတဲသေချာကြည့်ထားစေချင်ပါတယ်။ 
 
 **Example - 3**
 
-```
+```javascript
 let superHero = {
 
   name: "Batman",
@@ -45,7 +45,7 @@ let superHero = {
 
 }
 
-superHero.getName();	**Answer => Super hero name is Batman**
+superHero.getName();	Answer => Super hero name is Batman
 ```
 
 
@@ -54,7 +54,7 @@ example 3 မှာဆိုပုံမှန် Javascript object တစ်ခ
 
 **Example - 4**
 
-```
+```javascript
 let superHero = {
 
   name: "Batman",
@@ -79,9 +79,9 @@ let superHero = {
 
 superHero.getName()	
 
-**Answer 1 => Super hero name is Batman**
+Answer 1 => Super hero name is Batman
 
-**Error => Super hero name is undefined City is undefined**
+Error => Super hero name is undefined City is undefined
 ```
 
 
