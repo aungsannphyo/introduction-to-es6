@@ -148,7 +148,7 @@ Example 6 မှာ ပထမ console.log မှာအဖြေထုတ်တ�
 
 **Example - 7**
 
-```
+```javascript
 getName = () => console.log("I am Batman")
 
 getName();
