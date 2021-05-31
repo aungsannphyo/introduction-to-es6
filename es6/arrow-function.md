@@ -151,7 +151,9 @@ Example 6 မှာ ပထမ console.log မှာအဖြေထုတ်တ�
 ```
 getName = () => console.log("I am Batman")
 
-getName();	 Answer => I am Batman
+getName();
+
+Answer => I am Batman
 ```
 
 Example 7 မှာလို တကယ်လိုသူ့မှာတစ်ကြောင်းထဲပါတယ်ဆိုရင် အခုလိုတိုက်ရိုက် { } မပါဘဲလဲတန်းရေးလိုလဲရတယ်။
