@@ -120,7 +120,7 @@ Answer => Super hero name is Batman
 Answer => Super hero name is Batman City is Gotham
 ```
 
-Example 5 မှာဆိုရင် အပေါ်ကပြောခဲ့သလို this ကို ခေါ်သုံးလို့ရတာ getName() ဆိုတဲ့ function ထဲကနေသုံးလို့ရတယ် အဲ့တော့ကျွန်တော်က hero ဆိုတဲ့ variable declare လုပ်ပီး အဲ့ hero ထဲ this ကိုထည့်လိုက်တယ်။ အဲ့ကျ hero.name and hero.city  ဆိုပီးခေါ်သုံးလိုက်တော့ error မတက်တော့ပဲ အဖြေထွက်လာတယ်။ နည်းနည်းရူးကြောင်ကြောင်နိုင်တယ် ဟုတ်တယ်မလား :P. အခုလိုတွေ this ပြဿနာမကြုံရအောင် ES6 မှာပါလာတဲ့ Arrow Function ကိုသုံးပီးရေးကြည့်ရအောင်။ 
+Example 5 မှာဆိုရင် အပေါ်ကပြောခဲ့သလို this ကို ခေါ်သုံးလို့ရတာ getName() ဆိုတဲ့ function ထဲကနေသုံးလို့ရတယ် အဲ့တော့ကျွန်တော်က hero ဆိုတဲ့ variable declare လုပ်ပီး အဲ့ hero ထဲ this ကိုထည့်လိုက်တယ်။ အဲ့ကျ hero.name and hero.city  ဆိုပီးခေါ်သုံးလိုက်တော့ error မတက်တော့ပဲ အဖြေထွက်လာတယ်။ နည်းနည်းရူးကြောင်ကြောင်နိုင်တယ် ဟုတ်တယ်မလား  ::stuck_out_tongue_winking_eye: . အခုလိုတွေ this ပြဿနာမကြုံရအောင် ES6 မှာပါလာတဲ့ Arrow Function ကိုသုံးပီးရေးကြည့်ရအောင်။ 
 
 **Example - 6**
 
