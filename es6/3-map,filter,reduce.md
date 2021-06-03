@@ -51,7 +51,7 @@ console.log(result)
 Answer => [ 'batman', 'flash', 'wonder woman' ]
 ```
 
-Example 3 မှာဆိုရင် superHero Array ထဲက superman နဲ့မတူတဲ့ hero တွေကိုယူမယ်ဆိုတဲ့ condition တစ်ခုပါပဲ သာမာန်ကျွန်တော်တို့သိနေကြ Javascript အသုံးပြုတွေပါပဲ။ အဲ့တာကို filter() Function သုံးပီးဘယ်လိုရေးရလဲဆိုရင်...
+Example 3 မှာဆိုရင် superHero Array ထဲက superman နဲ့မတူတဲ့ hero တွေကိုယူမယ်ဆိုတဲ့ condition တစ်ခုပါပဲ သာမာန်ကျွန်တော်တို့သိနေကြ Javascript အသုံးပြုပုံပါပဲ။ အဲ့တာကို filter() Function သုံးပီးဘယ်လိုရေးရလဲဆိုရင်...
 
 `Example - 4`
 
