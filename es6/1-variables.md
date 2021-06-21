@@ -11,11 +11,11 @@
 ```javascript
 	var counter = 5;
 
-​		console.log(counter);	**Answer => 5**
+​		console.log(counter);	Answer => 5
 
 ​		var counter =  10;
 
-​		console.log(counter);	**Answer => 10**
+​		console.log(counter);	Answer => 10
 ```
 
 
@@ -25,11 +25,11 @@
 ```javascript
 		var counter = 5;
 
-​		console.log(counter);	**Answer => 5**
+​		console.log(counter);	Answer => 5
 
 ​		counter =  10;
 
-​		console.log(counter);	**Answer => 10**
+​		console.log(counter);	Answer => 10
 ```
 
 
@@ -77,7 +77,7 @@ let and const keyword တွေက ES6 မှ စတင်ပါ၀င် လာ
 ```javascript
 let name = "Batman"
 
-console.log(name);	**Answer  => Batman**
+console.log(name);	Answer  => Batman
 ```
 
 

@@ -5,9 +5,9 @@ Javascript မှာ function ရေးထုံးအနေနဲ့ နှစ�
 **Example - 1**
 
 ```javascript
-function getName(*name*) {
+function getName(name) {
 
-​	console.log(*name*);
+​	console.log(name);
 
 }
 
@@ -17,9 +17,9 @@ getName("Batman");	 Answer => Batman
 **Example - 2**
 
 ```javascript
-let getName = function (*name*) {
+let getName = function (name) {
 
-  console.log(*name*)
+  console.log(name)
 
 }
 

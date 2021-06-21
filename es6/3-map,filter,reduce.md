@@ -9,7 +9,7 @@ let superHero = ["batman", "superman", "flash", "wonder woman"];
 
 superHero.forEach((hero) => {
     console.log(hero)
-})
+});
 
 Answer => batman,superman,flash,wonder woman
 ```

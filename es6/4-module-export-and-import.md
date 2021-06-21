@@ -26,7 +26,7 @@ export const getCity = () => {
 }
 ```
 
-```
+```javascript
 app.js
 
 import greeting from "./greeting.js"
