@@ -4,31 +4,17 @@
 
 Reactjs ကိုသွားပီးမလေ့လာခင်မှာ ES6 ကိုကောင်းကောင်းနားလည်ထားဖို့လိုတယ်ဗျ။
 
-[**1 - variable**][]
+[**Variable**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/1-variables.md )
 
-[1 - variable]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/1-variables.md
+[**Arrow Function**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/2-arrow-function.md)
 
-[**2 - arrow function**][]
+[**Map,Filter and Reduce**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/3-map%2Cfilter%2Creduce.md)
 
-[2 - arrow function]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/2-arrow-function.md
+[**Module export and import**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/4-module-export-and-import.md)
 
-[**3 - map, filter and reduce**]
+[**Default parameter and Rest parameter**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/5-default-parameter-and-rest-parameter.md)
 
-[3 - map, filter and reduce]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/3-map%2Cfilter%2Creduce.md
+[**Destructuring and Spread Operator**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/6-destructuring-spread-operator.md)
 
-[**4 - module export and import**]
-
-[4 - module export and import]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/4-module-export-and-import.md
-
-[**5 - default parameter and rest parameter**]
-
-[5 - default parameter and rest parameter]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/5-default-parameter-and-rest-parameter.md
-
-[**6 - destructuring and spread operator**]
-
-[6 - destructuring and spread operator]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/6-destructuring-spread-operator.md
-
-[**7 - classes and constructor**]
-
-[7 - classes and constructor]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/7-classes-and-constructor-functions.md
+[**Classes and Constructor**](https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/7-classes-and-constructor-functions.md)
 
