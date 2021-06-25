@@ -8,27 +8,27 @@ Reactjs ကိုသွားပီးမလေ့လာခင်မှာ ES6 �
 
 [1 - variable]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/1-variables.md
 
-**2 - arrow function**[Ref]
+[**2 - arrow function**]
 
-[Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/2-arrow-function.md
+[2 - arrow function]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/2-arrow-function.md
 
-**3 - map, filter and reduce**
+[**3 - map, filter and reduce**]
 
-[Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/3-map%2Cfilter%2Creduce.md
+[3 - map, filter and reduce]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/3-map%2Cfilter%2Creduce.md
 
-**4 - module export and import**
+[**4 - module export and import**]
 
-[Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/4-module-export-and-import.md
+[4 - module export and import]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/4-module-export-and-import.md
 
-**5 - default parameter and rest parameter**
+[**5 - default parameter and rest parameter**]
 
-[Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/5-default-parameter-and-rest-parameter.md
+[5 - default parameter and rest parameter]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/5-default-parameter-and-rest-parameter.md
 
-**6 - destructuring and spread operator**
+[**6 - destructuring and spread operator**]
 
-[Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/6-destructuring-spread-operator.md
+[6 - destructuring and spread operator]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/6-destructuring-spread-operator.md
 
-**7 - classes and constructor**
+[**7 - classes and constructor**]
 
-[Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/7-classes-and-constructor-functions.md
+[7 - classes and constructor]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/7-classes-and-constructor-functions.md
 
