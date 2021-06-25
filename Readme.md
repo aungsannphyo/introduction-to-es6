@@ -8,7 +8,7 @@ Reactjs ကိုသွားပီးမလေ့လာခင်မှာ ES6 �
 
 [Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/1-variables.md
 
-**2 - arrow function**
+**2 - arrow function**[Ref]
 
 [Ref]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/2-arrow-function.md
 
