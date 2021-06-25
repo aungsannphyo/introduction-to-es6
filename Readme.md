@@ -4,11 +4,11 @@
 
 Reactjs ကိုသွားပီးမလေ့လာခင်မှာ ES6 ကိုကောင်းကောင်းနားလည်ထားဖို့လိုတယ်ဗျ။
 
-[**1 - variable**]
+[**1 - variable**][]
 
 [1 - variable]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/1-variables.md
 
-[**2 - arrow function**]
+[**2 - arrow function**][]
 
 [2 - arrow function]: https://github.com/aungsannphyo/introduction-to-reactjs/blob/master/es6/2-arrow-function.md
 
