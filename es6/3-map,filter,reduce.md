@@ -74,13 +74,57 @@ reduce() Function က Array တစ်ခုရှိတယ် အဲ့ Array �
 `Example - 5`
 
 ```javascript
-const numArray = [1, 2, 3, 4];
+const numbers = [1, 2, 3, 4];
 
-let result = numArray.reduce((prev, current) => prev + current)
-
-console.log(result)
-
-Answer => 10
+let sum = 0;
+for(let n of numbers){
+	sum += n;
+}
+console.log(sum) // => 10
 ```
 
- Example 5 မှာဆိုရင်  reduce() ရဲ့  callback Function မှာသူကကျ Argument မှာ ပထမတစ်ခုက previousValue အရင်တန်ဖိုးနဲ့ currentValue လက်ရှိတန်ဖိုးဆိုပီး တန်ဖိုး၂ ခုလက်ခံတယ်။ အပေါ်က example မှာဆိုရင် အရင်တန်ဖိုးကို လက်ရှိတန်ဖိုးနဲ့ ပေါင်းပေါင်းသွားတဲ့အတွက် နောက်ဆုံးမှာ အားလုံးပေါင်းတန်ဖိုးရတာဖစ်တယ်။ဘယ်လိုရလဲဆိုတာရှင်းပြပေးပါမယ်။ ပထမဆုံး စစအလုပ်လုပ်ချင်းမှာ prev တန်ဖိုးက 1 current  တန်ဖိုးက  2 ဖစ်နေတယ် သူတို့ပေါင်းခြင်းက  3။ ဒုတိယတစ်ခေါက်အလုပ်လုပ်တဲ့ချိန်ကျ prev တန်ဖိုးက  3  current က 3 ပေါင်းခြင်းက 6 ။ အဲ့လိုနဲ့နောက်ဆုံးမှာပေါင်းခြင်း 10 ရသွားတယ် အမလေး trace လိုက်ပေးရတာမောတာ .... ဒီ reduce() function ကိုသေချာနားလည်အောင်ကြည့်ထားစေချင်ပါတယ် အရမ်းအသုံး၀င်ပီး Redux , Context Provider ( State Management ) တွေကျရင်သူကိုပဲအဓိကထားသုံးတာမြင်ရမှာမို့လို့ပါ.... 
+ အပေါ်က example 5 မှာဆိုရင် ကျွန်တော်တို့သိနေကြအတိုင်း numbers array ကို loop ပတ်ပီး sum ထဲကိုပေါင်းပေါင်းထည့်လိုက်တယ်နောက်ဆုံးမှာ အဖြေရသွားတယ်။အာ့ဆို reduce သုံးပီးရေးကြည့်လိုက်ရအောင်
+
+`Example - 6`
+
+```javascript
+const numbers = [1, 2, 3, 4];
+
+let sum = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue 
+	}, 0)
+
+console.log(sum) // => 10
+```
+
+Example 6 မှာဆို reduce() function မှာ parameter 2 ခုလိုတယ်ပထမတစ်ခုက callback function တစ်ခုရယ် နောက်တစ်ခု accumulator တန်ဖိုးရယ်။ accumulator ကဘာလဲဆို example 5 မှာ ရေးခဲ့တဲ့ sum ဆိုတဲ့ variable ကိုပြောချင်တာဖစ်ပီး ဒုတိယ parameter အတွက် 0 တန်ဖိုးက initialize လုပ်တဲ့သဘောပါပဲ ပြောရရင်  let sum = 0 လို့ကြော်ငြာလိုက်တာနဲ့တူတူပါပဲ။ currentValue ဆိုတာကတော့ array ထဲက တန်ဖိုးတွေကိုဆိုလိုတာဖစ်တယ်။
+
+a = 0 ,  c = 1,   a + c = 1
+
+a = 1,  c = 2,   a + c =  3
+
+a = 3 ,  c = 3,  a + c = 6
+
+a = 6,   c = 4,   a + c  = 10
+
+ဒါကိုကြည့်ရင်နားလည်မယ်ထင်ပါတယ်။ အဲ့လိုမရေးချင်ရင်နောက်တစ်နည်းရေးလိုရပါသေးတယ်။
+
+`Example - 7`
+
+```javascript
+const numbers = [1, 2, 3, 4];
+
+let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+
+console.log(sum) // => 10
+```
+
+Example 7 မှာဆိုရင် accumulator တန်ဖိုးမပေးတော့ပဲတစ်ကြောင်းထဲနဲ့ပီးသွားတာမြင်ရပါတယ်။ သူကကျဘယ်လိုအလုပ်လုပ်သလိုဆိုရင်
+
+a = 1,  c = 2,   a + c =  3
+
+a = 3 ,  c = 3,  a + c = 6
+
+a = 6,   c = 4,   a + c  = 10
+
+accumulator တန်ဖိုးပေးမထားတဲ့အတွက် numbers array ရဲ့ပထမဆုံးခန်းကောင်က accumulator တန်ဖိုးအနေနဲ့၀င်သွားပီးကျွန်တော်တို့မျှော်လင့်ထားတဲ့အဖြေပဲရလာခဲ့ပါတယ်။
